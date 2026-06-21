@@ -1,5 +1,5 @@
 export const personal = {
-  name: "John",
+  name: "john.dev",
   title: "Créateur d'applications web et mobiles | @john_bk",
   tagline: "Développeur passionné par la conception de solutions performantes, de l'architecture backend jusqu'à l'interface utilisateur.",
   bio: [
