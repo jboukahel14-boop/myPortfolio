@@ -38,7 +38,7 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
     color: "#6366f1",
     github: "#",
-    live: "#",
+    live: "https://frontend-six-sigma-69.vercel.app/",
     featured: true,
   },
   {
