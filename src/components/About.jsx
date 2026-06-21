@@ -4,22 +4,28 @@ import { personal } from "../data/portfolioData";
 
 const tiltCards = [
   {
-    title: "Backend Architecture",
-    items: ["PHP", "Laravel", "MySQL", "REST APIs"],
-    color: "#6366f1",
+    title: "Backend",
+    items: ["Laravel", "SQL", "Java"],
+    color: "#FF2D20",
     icon: "{ }",
   },
   {
-    title: "Frontend Engineering",
-    items: ["React", "JavaScript", "TypeScript", "Tailwind"],
-    color: "#06b6d4",
+    title: "Frontend",
+    items: ["HTML/CSS", "JavaScript", "React"],
+    color: "#6366f1",
     icon: "< />",
   },
   {
-    title: "DevOps & Tools",
-    items: ["Docker", "Linux", "Git", "Redis"],
-    color: "#818cf8",
-    icon: "#!",
+    title: "Mobile",
+    items: ["Flutter", "Kotlin"],
+    color: "#06b6d4",
+    icon: "📱",
+  },
+  {
+    title: "System",
+    items: ["C++"],
+    color: "#00599C",
+    icon: "⚙️",
   },
 ];
 

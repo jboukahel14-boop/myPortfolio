@@ -191,7 +191,7 @@ export default function Hero3D() {
             transition={{ duration: 1, delay: 0.8 }}
             className="mt-12 flex items-center gap-6 text-text-secondary"
           >
-            {["React", "PHP", "Laravel", "MySQL"].map((tech) => (
+            {["Laravel", "React", "Flutter", "C++"].map((tech) => (
               <span
                 key={tech}
                 className="text-xs font-mono tracking-wider uppercase opacity-60"

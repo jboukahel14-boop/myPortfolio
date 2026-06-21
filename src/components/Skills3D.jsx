@@ -100,7 +100,8 @@ export default function Skills3D() {
 
   const frontend = skills.filter((s) => s.category === "frontend");
   const backend = skills.filter((s) => s.category === "backend");
-  const tools = skills.filter((s) => s.category === "tools");
+  const mobile = skills.filter((s) => s.category === "mobile");
+  const system = skills.filter((s) => s.category === "system");
 
   return (
     <section id="skills" ref={ref} className="relative py-24 md:py-32 overflow-hidden">
@@ -123,9 +124,10 @@ export default function Skills3D() {
           </p>
         </motion.div>
 
+        <Section title="Backend" color="#FF2D20" items={backend} />
         <Section title="Frontend" color="#6366f1" items={frontend} />
-        <Section title="Backend" color="#06b6d4" items={backend} />
-        <Section title="DevOps & Tools" color="#818cf8" items={tools} />
+        <Section title="Mobile" color="#06b6d4" items={mobile} />
+        <Section title="System" color="#00599C" items={system} />
       </div>
     </section>
   );

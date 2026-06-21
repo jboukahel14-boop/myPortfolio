@@ -1,10 +1,10 @@
 export const personal = {
   name: "John",
-  title: "Full-Stack Developer",
-  tagline: "Building premium, high-performance web applications that drive business growth.",
+  title: "Créateur d'applications web et mobiles | @john_bk",
+  tagline: "Développeur passionné par la conception de solutions performantes, de l'architecture backend jusqu'à l'interface utilisateur.",
   bio: [
-    "I'm a Full-Stack Developer with 3+ years of hands-on experience architecting and building production web applications. I specialize in PHP, Laravel, and MySQL for robust backends, paired with React and modern frontend tools for interfaces that users love.",
-    "Every project I deliver is built with performance, scalability, and clean code in mind. From database schema design to pixel-perfect UI, I own the full stack and ship systems that work."
+    "Développeur passionné par la conception de solutions performantes, de l'architecture backend jusqu'à l'interface utilisateur. Je conçois des applications web et mobiles robustes et évolutives.",
+    "Disponible pour des projets en freelance ou des collaborations innovantes. N'hésitez pas à explorer mes dépôts !"
   ],
   email: "john@example.com",
   location: "San Francisco, CA",
@@ -17,18 +17,15 @@ export const personal = {
 };
 
 export const skills = [
-  { name: "React", level: 92, color: "#6366f1", category: "frontend" },
-  { name: "JavaScript", level: 90, color: "#818cf8", category: "frontend" },
-  { name: "TypeScript", level: 82, color: "#4f46e5", category: "frontend" },
+  { name: "Laravel", level: 88, color: "#FF2D20", category: "backend" },
+  { name: "SQL", level: 82, color: "#4479A1", category: "backend" },
+  { name: "Java", level: 75, color: "#b07219", category: "backend" },
   { name: "HTML/CSS", level: 95, color: "#e34f26", category: "frontend" },
-  { name: "Tailwind CSS", level: 90, color: "#06b6d4", category: "frontend" },
-  { name: "PHP", level: 88, color: "#777BB4", category: "backend" },
-  { name: "Laravel", level: 85, color: "#FF2D20", category: "backend" },
-  { name: "MySQL", level: 82, color: "#4479A1", category: "backend" },
-  { name: "REST APIs", level: 88, color: "#10B981", category: "backend" },
-  { name: "Git", level: 85, color: "#F05032", category: "tools" },
-  { name: "Docker", level: 75, color: "#2496ED", category: "tools" },
-  { name: "Linux", level: 78, color: "#FCC624", category: "tools" },
+  { name: "JavaScript", level: 90, color: "#F7DF1E", category: "frontend" },
+  { name: "React", level: 88, color: "#6366f1", category: "frontend" },
+  { name: "Flutter", level: 78, color: "#06b6d4", category: "mobile" },
+  { name: "Kotlin", level: 72, color: "#7F52FF", category: "mobile" },
+  { name: "C++", level: 70, color: "#00599C", category: "system" },
 ];
 
 export const projects = [
